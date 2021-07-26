@@ -1,13 +1,13 @@
 @import "../../variables.scss";
 
 .card {
-  background-color: $color-background-white;
+  background-color: whitesmoke;
   border: $border;
   border-radius: 5px;
   box-shadow: $shadow;
   text-align: center;
 
   & .text {
-    height: 100px;
+    height: 80px;
   }
 }

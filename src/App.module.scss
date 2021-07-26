@@ -13,4 +13,6 @@
   gap: $base-spacing * 4;
   grid-template-columns: repeat(auto-fill, 200px);
   justify-content: space-around;
+  margin-left: $base-spacing * 2;
+  margin-right: $base-spacing * 2;
 }
