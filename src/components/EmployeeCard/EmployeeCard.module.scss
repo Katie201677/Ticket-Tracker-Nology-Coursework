@@ -1,0 +1,13 @@
+@import "../../variables.scss";
+
+.card {
+  background-color: $color-background-white;
+  border: $border;
+  border-radius: 5px;
+  box-shadow: $shadow;
+  text-align: center;
+
+  & .text {
+    height: 100px;
+  }
+}
