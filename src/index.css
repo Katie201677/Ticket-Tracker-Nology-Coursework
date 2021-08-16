@@ -10,9 +10,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#57b6f1, #127CFB);
-  background-repeat: no-repeat;
-  height: 100vh;
 }
 
 code {

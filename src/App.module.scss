@@ -1,9 +1,16 @@
 @import "./variables.scss";
 
+.app {
+  background: linear-gradient(#57b6f1, #127CFB);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-bottom: $base-spacing * 4;
+  padding-top: $base-spacing * 4;
+}
+
 .heading {
   font-family: $font-family;
   margin-bottom: $base-spacing * 4;
-  margin-top: $base-spacing * 4;
   text-align: center;
 }
 

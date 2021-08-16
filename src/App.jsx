@@ -12,12 +12,12 @@ const App = () => {
   );
   
   return (
-    <>
-    <h1 className={styles.heading}>Ticket Tracker</h1>
-    <div className={styles.grid}>
-      {team.map(getEmployeeJsx)}
-    </div>
-    </>
+    <section className={styles.app}>
+      <h1 className={styles.heading}>Ticket Tracker</h1>
+      <div className={styles.grid}>
+        {team.map(getEmployeeJsx)}
+      </div>
+    </section>
   );
 }
 
